@@ -32,4 +32,4 @@ io.on('connection', socket => {
 
 
 
-server.listen(portA)
+server.listen(port)
