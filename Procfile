@@ -1,2 +1,2 @@
 web: npm install
-web: npm run devStart
+web: node server.js
