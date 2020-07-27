@@ -4,13 +4,12 @@
 
 ## Dependencies ##
 
-- [express]
-- [ejs]
-- [nodemon]
-- [peerjs]
-- [socket.io]
-- [uuid]
-center
+- express
+- ejs
+- nodemon
+- peerjs
+- socket.io
+- uuid
 ## File System ##
 
 `server.js`: This file will contain all the dependencies and will be the main file for connecting all the files and rendering the ejs file for the homepage.
