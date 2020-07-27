@@ -2,7 +2,8 @@ const express = require('express'),
 	  app 	  = express(),
 	  server  = require('http').Server(app),
 	  io 	  = require('socket.io')(server),
-	  { v4: uuidv4 } 	  = require('uuid')
+	  { v4: uuidv4 } 	  = require('uuid'),
+      	  port 			  = process.env.PORT || 3000
 
 
 
@@ -31,4 +32,4 @@ io.on('connection', socket => {
 
 
 
-server.listen(3000)
+server.listen(portA)
